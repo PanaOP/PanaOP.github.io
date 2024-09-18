@@ -1,0 +1,96 @@
+.fondo1{
+    background-image: url(no-tengo-amigos.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.fondo2{
+    background-color: rgba(0, 0, 0, 0.438);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.arriba1{
+    position: absolute;
+    margin: -50px;
+    width: 2560px;
+    height: 300px;
+    z-index: 3;
+}   
+
+.titulo1{
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    left: 32%;
+    height: 100px;
+    z-index: 4;
+}
+
+.cuadrado1{
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(169, 165, 165, 0.648);
+    width: 2000px;
+    height: 900px;
+    border-radius: 15px;
+    left: 10%;
+    top: 25%;
+}
+
+.texto1{
+    position: absolute;
+    z-index: 6;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    top: 350px;
+    left: 420px;
+}
+
+.texto2{
+    position: absolute;
+    z-index: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    top: 400px;
+    left: 600px;
+}
+
+
+.contraseña2{
+    position: absolute;
+    background: #fff;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 8;
+    left: 38%;
+    top: 40%;
+    width: 500px;
+    height: 500px;
+    font-family: 'Times New Roman', Times, serif   ;
+
+}
+.contraseña{
+    position: absolute;
+    z-index: 9;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mensaje1{
+    margin-top: 10px;
+    font-size: 14px;
+    position: absolute
+
+}
+

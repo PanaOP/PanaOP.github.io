@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <img src="Caravana.jpg" class="arriba1">
+    <img src="titulo.png" class="titulo1">
+    <div class="fondo1"></div>
+    <div class="cuadrado1"></div>
+    <div class="fondo2"></div>
+    <h1 class="texto1">BIENVENIDO A ESTA PÁGINA PARA ESCRIBIR TUS DELIRIOS, SOCIO, O HAZ LO QUE TE DÉ LA GANA.</h1>
+    <h2 class="texto2">INSCRIBETE SOCIUS</h2>
+    <input id="login">
+    <div class="contraseña2">
+        <h1>Inicia Socio</h1>
+        <form id="loginForm">
+            <input type="password" id="password" placeholder="Introduce la contraseña" required>
+            <button type="submit">Acceder</button>
+        </form>
+        <p id="message" class="mensaje1"></p>
+    </div>
+
+    <script>
+        const correctPassword = 'nopuedomassocio'
+
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            const password = document.getElementById('password').value;
+            const message = document.getElementById('message');
+
+            if (password === correctPassword) {
+                message.textContent = '¡Acceso concedido!';
+                message.style.color = 'green';
+    
+                window.location.href = 'welcome.html';
+            } else {
+                message.textContent = 'Contraseña incorrecta. Inténtalo de nuevo.';
+                message.style.color = 'red';
+            }
+        });
+    </script>
+</body>
+</html>
